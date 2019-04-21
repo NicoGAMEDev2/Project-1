@@ -31,28 +31,28 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "112b5ffa-255e-46f6-b5d3-84a7207d2b48",
+            "id": "21ae9603-7355-4625-85c9-cf96e33ed484",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "51462794-5da6-4ba7-9e70-51b34d7552ae",
+            "id": "189abe31-e8db-47b5-8b62-fa5c6a0dafcc",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 0
         },
         {
-            "id": "fefb979b-92eb-43b9-8f6b-a68afcc0f57d",
+            "id": "789b5131-0a31-4809-b5e0-af8faeead343",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 64
         },
         {
-            "id": "dc4acd62-e3af-4325-9e16-c316accd0a46",
+            "id": "a6aa0a07-ec68-49d0-91d5-9a05ec52bd98",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
@@ -72,11 +72,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "500",
-            "varName": "JumpForce",
+            "varName": "jumpForce",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "56ec3e3a-2c96-4d9e-91ca-62e3c442a910",
+    "spriteId": "cb413534-8eed-4e68-938d-472ba35dd0b8",
     "visible": true
 }
