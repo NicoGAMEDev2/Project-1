@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "884761e7-972a-445b-b074-781ae713810e",
+            "Value": {
+                "id": "59d21417-e325-4ed8-9bdb-744cfe1296c2",
+                "resourcePath": "sprites\\spr_UiTempidea\\spr_UiTempidea.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ce70dee-b70b-4215-b27f-cf0d29cd2325",
             "Value": {
                 "id": "1cdd4a7b-8756-410c-a323-c9d3b982cdb1",
