@@ -7,6 +7,8 @@ if(vehicle != noone)
 	show_debug_message("car is here");
 	with(vehicle) 
 	{ 
-		phy_position_y = other.phy_position_y -  other.hoverHeight;
+		if(phy_position_y > other.phy_position_y -  other.hoverHeight) phy_position_y = other.phy_position_y -  other.hoverHeight;
+		else phy_position_y = phy_position_yprevious;
+		
 	}
 }

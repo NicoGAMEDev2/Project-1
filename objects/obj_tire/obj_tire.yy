@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_tire",
     "eventList": [
-        
+        {
+            "id": "ad614ca9-4d27-4841-bf11-80d46933a875",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "bfc037b5-b213-4819-a0e2-556643d9a502",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "cf417e21-e812-498e-b6f0-f74376b97b8d"
+        },
+        {
+            "id": "4292e015-d6d5-42fe-a74a-93fd932e05af",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cf417e21-e812-498e-b6f0-f74376b97b8d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -37,7 +56,9 @@
         }
     ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        
+    ],
     "solid": false,
     "spriteId": "2eed8367-b7ec-4ac9-8a61-e23fc1464c95",
     "visible": true
