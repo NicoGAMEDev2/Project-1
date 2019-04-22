@@ -1,0 +1,1 @@
+obj_mouse.sprite_index = sprite_index;

@@ -1,4 +1,4 @@
-
+physics_mass_properties(phy_mass, 6, 0, phy_inertia);
 
 // 1:1 scale rear is x - 18
 rearLoc = 18 * image_xscale
