@@ -81,7 +81,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "150",
+            "value": "100",
             "varName": "jumpForce",
             "varType": 0
         }

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "13927add-3c37-4998-8554-a612c37965dd",
+            "Value": {
+                "id": "504373c6-ce15-4270-8021-79546e4384bf",
+                "resourcePath": "objects\\obj_mouse\\obj_mouse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ab815cf-0699-4904-a643-5c5e4440372c",
             "Value": {
                 "id": "f39bf654-18ae-49c2-b188-fcea063a2bb5",
@@ -178,7 +186,7 @@
             "Key": "761583d3-0ddf-4655-94c8-28106d3aa6e6",
             "Value": {
                 "id": "e17178b7-733b-490a-9478-8884bee1b39e",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\Level_1\\Level_1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -387,6 +395,14 @@
             "Value": {
                 "id": "89b9e22e-8822-4a97-a20a-b2e22edceff9",
                 "resourcePath": "objects\\obj_boat\\obj_boat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e3858f41-203b-4941-9165-f72b215f93c2",
+            "Value": {
+                "id": "28004915-68e2-4ee3-bab5-a3edfc70e535",
+                "resourcePath": "objects\\obj_JumpPadSelect\\obj_JumpPadSelect.yy",
                 "resourceType": "GMObject"
             }
         },

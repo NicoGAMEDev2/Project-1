@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "2b171517-14e4-423e-9214-ca0979c8c680"
+        },
+        {
+            "id": "da53d0ac-5b0f-44b0-a09e-c51fe50d5733",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 53,
+            "eventtype": 6,
+            "m_owner": "2b171517-14e4-423e-9214-ca0979c8c680"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -102,6 +112,20 @@
             "value": "35",
             "varName": "speed",
             "varType": 0
+        },
+        {
+            "id": "27f3551b-2eb1-40e6-8719-63ddcfad6cab",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "motor",
+            "varType": 3
         }
     ],
     "solid": false,

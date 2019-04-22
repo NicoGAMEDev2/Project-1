@@ -1,3 +1,5 @@
+
+
 // 1:1 scale rear is x - 18
 rearLoc = 18 * image_xscale
 frontLoc = 17 * image_xscale
@@ -17,7 +19,7 @@ physics_fixture_set_friction(fix, friction);
 physics_fixture_bind_ext(fix, wheel, wheel.sprite_width / 2, wheel.sprite_width / 2);
 
 //attaches the rear wheel
-physics_joint_revolute_create(id, wheel, wheel.x, wheel.y, 0, 0, 0, torque, speed, true, false);
+rearWheel =physics_joint_revolute_create(id, wheel, wheel.x, wheel.y, 0, 0, 0, torque, speed, false, false);
 
 //front wheel
 wheel = instance_create_layer(x + frontLoc, y, "Instances", obj_tire);
@@ -30,4 +32,4 @@ physics_fixture_bind_ext(fix, wheel, wheel.sprite_width / 2, wheel.sprite_width 
 //deletes fixture
 physics_fixture_delete(fix);
 //ataches the front wheel
-physics_joint_revolute_create(id, wheel, wheel.x, wheel.y, 0, 0, 0, torque, speed, true, false);
+frontWheel = physics_joint_revolute_create(id, wheel, wheel.x, wheel.y, 0, 0, 0, torque, speed, false, false);
