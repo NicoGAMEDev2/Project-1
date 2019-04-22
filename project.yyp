@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2eed8367-b7ec-4ac9-8a61-e23fc1464c95",
+            "Value": {
+                "id": "53032371-9adb-4a24-a5e0-5d2c83face98",
+                "resourcePath": "sprites\\spr_tire\\spr_tire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39457a90-0c69-466b-8ed4-c7e9b5afa32f",
             "Value": {
                 "id": "ef4ace52-6d5c-42c8-b796-fba4fc1bf0e1",
@@ -348,6 +356,14 @@
                 "id": "405114c5-3f19-4e7c-b246-3530f1da870e",
                 "resourcePath": "sprites\\spr_TempCar\\spr_TempCar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf417e21-e812-498e-b6f0-f74376b97b8d",
+            "Value": {
+                "id": "543d2ba1-3ac4-45d5-b5ef-4679a9cec3f3",
+                "resourcePath": "objects\\obj_tire\\obj_tire.yy",
+                "resourceType": "GMObject"
             }
         },
         {

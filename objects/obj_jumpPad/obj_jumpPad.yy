@@ -5,13 +5,23 @@
     "name": "obj_JumpPad",
     "eventList": [
         {
-            "id": "c56c5c42-d600-4759-9e15-0d46f5ce9537",
+            "id": "18015b3d-574d-4bf5-9c99-0dd394662b55",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "cc76b045-3616-490c-8367-1a3c79e5b5f2",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
+            "m_owner": "eb65d0a7-e9ff-4a78-b859-f43d25114525"
+        },
+        {
+            "id": "9182d575-a45a-4353-bc67-c3810b601e0d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "eb65d0a7-e9ff-4a78-b859-f43d25114525"
         }
     ],
@@ -31,32 +41,32 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "21ae9603-7355-4625-85c9-cf96e33ed484",
+            "id": "da60675f-b554-4d10-bc26-fffa43f8c7cb",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "189abe31-e8db-47b5-8b62-fa5c6a0dafcc",
+            "id": "922495db-da6e-4816-b1ac-716aafc83429",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 0
         },
         {
-            "id": "789b5131-0a31-4809-b5e0-af8faeead343",
+            "id": "5c400b60-50d2-4b07-8388-a650966bf242",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
-            "y": 64
+            "y": 32
         },
         {
-            "id": "a6aa0a07-ec68-49d0-91d5-9a05ec52bd98",
+            "id": "ae6eed4a-4c81-4fb8-8304-bd7f3cfa442b",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
-            "y": 64
+            "y": 32
         }
     ],
     "physicsStartAwake": true,
@@ -71,7 +81,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "500",
+            "value": "250",
             "varName": "jumpForce",
             "varType": 0
         }
