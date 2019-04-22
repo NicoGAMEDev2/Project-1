@@ -19,8 +19,10 @@ if(OnEnter && OnExit)
 
 if(PassedOver = true)
 {
+	
 	AmountPassed ++;
 	show_debug_message("vehicle has passed over " + string(AmountPassed) + " times")
+	show_message("YOU WIN")
 	OnEnter = false;
 	OnExit = false;
 	PassedOver = false;
