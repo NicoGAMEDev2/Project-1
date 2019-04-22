@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_tire",
     "eventList": [
-        {
-            "id": "2ab53dfe-87b8-4339-bf64-bf21f6baff6c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "cf417e21-e812-498e-b6f0-f74376b97b8d"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
