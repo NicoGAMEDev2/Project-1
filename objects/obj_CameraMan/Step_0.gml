@@ -4,7 +4,8 @@ vehicle = collision_circle(x, y, radius , Obj_Vehicle, false, true);
 
 if(vehicle != noone)
 {
-	OnEnter = true;
+	if(point_in_circle(vehicle.x, vehicle.y, x, y, radius)) OnEnter = true;
+	
 }
 
 if(OnEnter && vehicle == noone)
