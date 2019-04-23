@@ -1,1 +1,1 @@
-physics_joint_enable_motor(motor, true);
+//physics_joint_enable_motor(motor, true);
