@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "551635a1-657c-4670-a8a4-4c291d6368a8",
+            "Value": {
+                "id": "2ead762d-3db8-4b7b-9d35-6c0e35dd375e",
+                "resourcePath": "objects\\obj_GameController\\obj_GameController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "56ec3e3a-2c96-4d9e-91ca-62e3c442a910",
             "Value": {
                 "id": "3113ee84-6197-4095-8876-021cdab27a5b",
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "d4f547ff-7d54-42f7-95a4-ff3fc0a36272",
+            "Value": {
+                "id": "e71c632f-18e6-477e-9843-f017fa62414a",
+                "resourcePath": "rooms\\Level_3\\Level_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "dc65b7bb-e36f-4b72-a825-1b9d62868914",
             "Value": {
                 "id": "89b9e22e-8822-4a97-a20a-b2e22edceff9",
@@ -516,6 +532,14 @@
                 "id": "0a39ec6a-87d8-401b-b9a2-1648e0598c00",
                 "resourcePath": "views\\ee36d6fb-b676-4c34-a30b-00cc6c980f2d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef505012-d810-4b96-b600-9844219845e5",
+            "Value": {
+                "id": "be94341d-fb06-4597-98e5-a12c56656f78",
+                "resourcePath": "rooms\\Level_2\\Level_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

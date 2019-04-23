@@ -1,24 +1,34 @@
 {
-    "id": "66c844e9-ffe0-4204-9f1b-2a2243085568",
+    "id": "551635a1-657c-4670-a8a4-4c291d6368a8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_vehicleController",
+    "name": "obj_GameController",
     "eventList": [
         {
-            "id": "8e49f063-b3b1-4baa-9644-d5edb14a676a",
+            "id": "cdb24f3b-98b6-4999-b899-b5808951121f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "551635a1-657c-4670-a8a4-4c291d6368a8"
+        },
+        {
+            "id": "9e7e69ca-61cc-459d-bef5-85255a43d421",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "66c844e9-ffe0-4204-9f1b-2a2243085568"
+            "eventtype": 7,
+            "m_owner": "551635a1-657c-4670-a8a4-4c291d6368a8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
-    "persistent": false,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "286079de-ef03-4a2f-a1cc-2ca86f687463",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
