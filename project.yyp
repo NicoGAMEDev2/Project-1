@@ -146,7 +146,7 @@
             "Key": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "Value": {
                 "id": "c7d02946-d226-4c14-a98f-2ecc74690a99",
-                "resourcePath": "objects\\Obj_Item\\Obj_Item.yy",
+                "resourcePath": "objects\\Obj_ItemSelect\\Obj_ItemSelect.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -244,6 +244,14 @@
                 "id": "ad869846-2915-4714-9b48-7aa90e173af1",
                 "resourcePath": "views\\7011b53b-2deb-44ec-a960-f82b506274ec.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7443aaa5-b0ba-4557-9e92-c0b5a7e70138",
+            "Value": {
+                "id": "62860e6a-d9ba-4643-b108-666646b128ef",
+                "resourcePath": "objects\\Obj_Item\\Obj_Item.yy",
+                "resourceType": "GMObject"
             }
         },
         {

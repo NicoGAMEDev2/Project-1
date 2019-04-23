@@ -1,4 +1,4 @@
-if(!position_meeting(x, y, Obj_Item))
+if(!position_meeting(x, y, Obj_ItemSelect))
 {
 	if(sprite_index == spr_TempTrampo)
 	{
