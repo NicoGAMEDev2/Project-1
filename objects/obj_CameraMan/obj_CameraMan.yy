@@ -111,7 +111,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "80",
             "varName": "radius ",
             "varType": 0
         }
