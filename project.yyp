@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "cec5e6e8-ba8a-4cb5-9027-8e579414ba5a",
+            "Value": {
+                "id": "6c205aa9-8e80-4466-b344-f6fd4218c82a",
+                "resourcePath": "sprites\\spr_CameraMan\\spr_CameraMan.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf417e21-e812-498e-b6f0-f74376b97b8d",
             "Value": {
                 "id": "543d2ba1-3ac4-45d5-b5ef-4679a9cec3f3",
