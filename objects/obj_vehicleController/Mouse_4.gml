@@ -4,7 +4,7 @@ if(sprite_index == spr_Stop)
 	{
 		physics_joint_enable_motor(motor, true);
 	}
-	inPlay = true;
+	obj_GameController.inPlay = true;
 	sprite_index = spr_Go;
 }
 else if(sprite_index == spr_Go) 
@@ -13,6 +13,6 @@ else if(sprite_index == spr_Go)
 	{
 		physics_joint_enable_motor(motor, false);
 	}
-	inPlay = false;
+	obj_GameController.inPlay = false;
 	sprite_index = spr_Stop;
 }

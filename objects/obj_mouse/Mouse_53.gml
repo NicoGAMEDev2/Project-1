@@ -1,6 +1,8 @@
-if(obj_vehicleController.inPlay == false)
+if(obj_GameController.inPlay == false)
 {
-	if(!position_meeting(x, y, Obj_ItemSelect))
+	overItemSelect = position_meeting(x, y, Obj_ItemSelect);
+	overCameraManBoundary = point_in_circle(mouse_x, mouse_y, obj_CameraMan.x, obj_CameraMan.y, obj_CameraMan.radius);
+	if(!overItemSelect && !overCameraManBoundary)
 	{
 		if(sprite_index == spr_TempTrampo)
 		{
@@ -11,25 +13,4 @@ if(obj_vehicleController.inPlay == false)
 			instance_create_layer(mouse_x, mouse_y, "Items", obj_HoverPad);
 		}
 	}
-	else if(!position_meeting(x, y, obj_CameraMan.vehicle))
-	{
-		if(sprite_index == spr_TempTrampo)
-		{
-		}
-		if(sprite_index == spr_TempHover)
-		{
-		}
-	}
 } 
-else 
-{
-	if(!position_meeting(x, y, Obj_ItemSelect))
-	{
-		if(sprite_index == spr_TempTrampo)
-		{
-		}
-		if(sprite_index == spr_TempHover)
-		{
-		}
-	}
-}
