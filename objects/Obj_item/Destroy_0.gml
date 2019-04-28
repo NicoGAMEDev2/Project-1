@@ -1,0 +1,1 @@
+itemSelect.item_amount += 1;

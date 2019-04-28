@@ -16,7 +16,24 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "5aaec6ce-1f5f-4a93-92c5-aad91f1cbe6d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "57f814d9-0666-4ffe-85b6-d9b3b3a2b1b9",
+            "value": "5"
+        },
+        {
+            "id": "c19e94d4-500d-4651-8a29-81eb24ec9c90",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "fc6b688a-2be2-4179-912d-01b8bd9f462e",
+            "value": "HoverPad"
+        }
+    ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
     "persistent": false,
     "physicsAngularDamping": 0.1,
