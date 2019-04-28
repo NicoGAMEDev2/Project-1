@@ -17,5 +17,5 @@ if(upsideDown && place_meeting(x,y, obj_wall))
 }	
 else include = true;
 
-show_debug_message("chances: " + string(chances))
+//show_debug_message("chances: " + string(chances))
 if(chances == 0) room_restart();
