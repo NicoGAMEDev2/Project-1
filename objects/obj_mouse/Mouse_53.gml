@@ -5,11 +5,11 @@ if(obj_GameController.inPlay == false)
 	
 	if(!overInteractable && !overCameraManBoundary)
 	{
-		if(sprite_index == spr_TempTrampo)
+		if(sprite_item == spr_TempTrampo)
 		{
 			instance_create_layer(mouse_x, mouse_y, "Items", obj_JumpPad);
 		}
-		if(sprite_index == spr_TempHover)
+		if(sprite_item == spr_TempHover)
 		{
 			instance_create_layer(mouse_x, mouse_y, "Items", obj_HoverPad);
 		}
