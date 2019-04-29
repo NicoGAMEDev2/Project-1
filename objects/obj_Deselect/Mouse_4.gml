@@ -1,1 +1,0 @@
-obj_mouse.sprite_index = noone;

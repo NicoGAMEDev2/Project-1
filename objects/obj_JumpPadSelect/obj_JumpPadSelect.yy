@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_JumpPadSelect",
     "eventList": [
-        {
-            "id": "dd083706-d450-4154-a0ac-34e0b8767951",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "e3858f41-203b-4941-9165-f72b215f93c2"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "Obj_interactable",
     "eventList": [
-        
+        {
+            "id": "5f791e36-bac6-47ff-88b2-541c4bf1362b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40"
+        },
+        {
+            "id": "bfd8ac41-f788-4e4e-8761-9c06df17e2ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40"
+        },
+        {
+            "id": "0060fbbd-aabf-449d-a52a-fc85c92dab39",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 53,
+            "eventtype": 6,
+            "m_owner": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +51,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "4df3e4a3-e8a0-4229-b560-65dddc8418ea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mouseX",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

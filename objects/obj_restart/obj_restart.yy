@@ -5,12 +5,12 @@
     "name": "obj_restart",
     "eventList": [
         {
-            "id": "ec02efb7-3da3-4d39-b439-2d4f86b6ab08",
+            "id": "2a31715d-2e2b-4543-91dc-46b2e867a2da",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 53,
             "eventtype": 6,
             "m_owner": "60415867-30e8-4504-8b4d-3474a04bd210"
         }

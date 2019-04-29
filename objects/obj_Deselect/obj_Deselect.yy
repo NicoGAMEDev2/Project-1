@@ -5,19 +5,19 @@
     "name": "obj_Deselect",
     "eventList": [
         {
-            "id": "2fee9820-4ce4-40bd-8a0e-e943c0edc295",
+            "id": "ece91b98-b031-4a0d-a486-a77c0403d30c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 53,
             "eventtype": 6,
             "m_owner": "f64652e7-da66-4290-a8c5-5b36a94ce601"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40",
+    "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
