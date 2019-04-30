@@ -10,7 +10,7 @@
         "8ce70dee-b70b-4215-b27f-cf0d29cd2325"
     ],
     "filterType": "GMSprite",
-    "folderName": "Vehicles",
+    "folderName": "Sprite_Vehicles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

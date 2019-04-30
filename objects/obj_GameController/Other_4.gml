@@ -1,5 +1,5 @@
 global.rm = room;
 inPlay = false;
 
-//Enable the use of views
-view_enabled = true;
+
+camera_set_view_target(view_camera[0], obj_mouse);

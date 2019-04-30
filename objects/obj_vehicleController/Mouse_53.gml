@@ -1,6 +1,6 @@
 if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 {
-	if(sprite_index == spr_Stop) 
+	if(sprite_index == spr_Stop) //switches to go
 	{
 		with(obj_tire)
 		{
@@ -8,8 +8,9 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 		}
 		obj_GameController.inPlay = true;
 		sprite_index = spr_Go;
+		camera_set_view_target(view_camera[0], Obj_Vehicle);
 	}
-	else if(sprite_index == spr_Go) 
+	else if(sprite_index == spr_Go) //swithces to stop
 	{
 		with(obj_tire)
 		{
@@ -17,5 +18,8 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 		}
 		obj_GameController.inPlay = false;
 		sprite_index = spr_Stop;
+		obj_mouse.x = Obj_Vehicle.x;
+		obj_mouse.y = Obj_Vehicle.y;
+		camera_set_view_target(view_camera[0], obj_mouse);
 	}
 }
