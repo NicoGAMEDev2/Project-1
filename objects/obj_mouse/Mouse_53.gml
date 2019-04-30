@@ -4,8 +4,10 @@ if(obj_GameController.inPlay == false)
 	overItem = position_meeting(mouse_x, mouse_y, Obj_Item);
 	overCameraManBoundary = point_in_circle(mouse_x, mouse_y, obj_CameraMan.x, obj_CameraMan.y, obj_CameraMan.radius);
 	
+	
 	if(item == noone && !overInteractable && !overItem)
 	{
+		camera_set_view_target(view_camera[0], id);
 		x = mouse_x;
 		y = mouse_y;
 	}

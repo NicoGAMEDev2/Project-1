@@ -39,6 +39,7 @@ if(vehicle != noone)
 			phy_angular_velocity = 0;
 			phy_rotation = 0;
 		}
+		camera_set_view_target(view_camera[0], Obj_Vehicle);
 	}
 }
 

@@ -2,6 +2,13 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 {
 	if(obj_mouse.item == noone) 
 	{
+		with(obj_vehicleController)
+		{
+			obj_GameController.inPlay = false;
+			sprite_index = spr_Stop;
+			camera_set_view_target(view_camera[0], Obj_Vehicle);
+		}
+		
 		with(Obj_Vehicle)
 		{
 			phy_position_x = spawnX;
