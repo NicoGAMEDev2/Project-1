@@ -2,7 +2,7 @@
     "id": "60415867-30e8-4504-8b4d-3474a04bd210",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_restart",
+    "name": "restartCar",
     "eventList": [
         {
             "id": "2a31715d-2e2b-4543-91dc-46b2e867a2da",

@@ -1,5 +1,11 @@
 if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 {
+	with(obj_mouse)
+	{
+		sprite_item = noone;
+		item = noone;
+		itemSelect = noone;
+	}
 	if(sprite_index == spr_Stop) //switches to go
 	{
 		with(obj_tire)

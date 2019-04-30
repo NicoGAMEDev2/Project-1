@@ -14,9 +14,13 @@ if(obj_GameController.inPlay == false)
 		if(item != noone && itemSelect.item_amount > 0) 
 		{
 			instance_create_layer(mouse_x, mouse_y, "Interactables", item);
-			sprite_item = noone;
-			item = noone;
-			itemSelect = noone;
+			if(!obj_GameController.continuous)
+			{
+				sprite_item = noone;
+				item = noone;
+				itemSelect = noone;
+			}
+			
 		}
 	}
 	

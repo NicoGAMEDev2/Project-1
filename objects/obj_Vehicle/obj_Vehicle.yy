@@ -137,6 +137,34 @@
             "value": "True",
             "varName": "include",
             "varType": 3
+        },
+        {
+            "id": "cee3c278-00d9-496b-bd90-c41e18575375",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "x",
+            "varName": "spawnX",
+            "varType": 0
+        },
+        {
+            "id": "a0247796-ded4-43c6-b575-b05105350d2a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "y",
+            "varName": "spawnY",
+            "varType": 0
         }
     ],
     "solid": false,
