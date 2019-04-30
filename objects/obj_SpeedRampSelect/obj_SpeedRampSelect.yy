@@ -1,45 +1,36 @@
 {
-    "id": "02182e6d-e2bd-49e3-8796-24b93fbc8cf1",
+    "id": "1103acfa-fcc6-44dc-a345-2be8781c586b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_HoverPadSelect",
+    "name": "obj_SpeedRampSelect",
     "eventList": [
-        {
-            "id": "3e84ca95-e211-415a-ab0d-3429b40bcfc6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "02182e6d-e2bd-49e3-8796-24b93fbc8cf1"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "5aaec6ce-1f5f-4a93-92c5-aad91f1cbe6d",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
-            "propertyId": "57f814d9-0666-4ffe-85b6-d9b3b3a2b1b9",
-            "value": "5"
-        },
-        {
-            "id": "c19e94d4-500d-4651-8a29-81eb24ec9c90",
+            "id": "902a71e2-3781-4061-ab70-aeebd77e4dd3",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "fc6b688a-2be2-4179-912d-01b8bd9f462e",
-            "value": "HoverPad"
+            "value": "SpeedRamp"
         },
         {
-            "id": "49e5fd20-b679-4fce-82ff-7cb70f2145f2",
+            "id": "86268ffe-ca5e-4c25-ac2e-03416dea457a",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "cb6e7646-8955-4979-ae34-f1db42b34153",
-            "value": "obj_HoverPad"
+            "value": "obj_SpeedRamp"
+        },
+        {
+            "id": "e63d3f85-6c18-436c-87c9-dc8622f87f3a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "57f814d9-0666-4ffe-85b6-d9b3b3a2b1b9",
+            "value": "20"
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
@@ -58,6 +49,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6fe9be18-b895-472c-9529-927984babcd8",
+    "spriteId": "0f016587-1229-4682-bbb1-7756d7d349cf",
     "visible": true
 }

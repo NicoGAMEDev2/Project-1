@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1103acfa-fcc6-44dc-a345-2be8781c586b",
+            "Value": {
+                "id": "0a147746-737a-48cb-9f93-8e7f9784f93b",
+                "resourcePath": "objects\\obj_SpeedRampSelect\\obj_SpeedRampSelect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13927add-3c37-4998-8554-a612c37965dd",
             "Value": {
                 "id": "504373c6-ce15-4270-8021-79546e4384bf",
@@ -308,6 +316,14 @@
                 "id": "5ddda33a-54d9-49a0-81f4-b0435ac81545",
                 "resourcePath": "sprites\\spr_Deselect\\spr_Deselect.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8fc3c543-1872-40cd-b348-842c10420f7a",
+            "Value": {
+                "id": "b7606bc0-eb72-4908-ac8c-831d34f6d822",
+                "resourcePath": "objects\\obj_SpeedRamp\\obj_SpeedRamp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
