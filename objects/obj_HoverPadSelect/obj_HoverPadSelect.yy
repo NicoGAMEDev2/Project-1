@@ -23,6 +23,14 @@
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "fc6b688a-2be2-4179-912d-01b8bd9f462e",
             "value": "HoverPad"
+        },
+        {
+            "id": "49e5fd20-b679-4fce-82ff-7cb70f2145f2",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "cb6e7646-8955-4979-ae34-f1db42b34153",
+            "value": "obj_HoverPad"
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",

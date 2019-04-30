@@ -9,7 +9,7 @@
         "f64652e7-da66-4290-a8c5-5b36a94ce601"
     ],
     "filterType": "GMObject",
-    "folderName": "GUI Item",
+    "folderName": "Item Select",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
