@@ -4,14 +4,15 @@ if(item != noone && itemSelect.item_amount <= 0)
 	item = noone;
 	itemSelect = noone;			
 }
-	
+overInteractable = position_meeting(window_mouse_get_x(), window_mouse_get_y(), Obj_interactable);
+
 if(window_mouse_get_x() < xBounds)
 {
-	if(item != noone || mouse_check_button(mb_left)) x -= 0.1 * (xBounds - window_mouse_get_x());
+	if(item != noone || (mouse_check_button(mb_left) && !overInteractable)) x -= 0.1 * (xBounds - window_mouse_get_x());
 }
 else if(window_mouse_get_x() > 1600 - xBounds)
 {
-	if(item != noone || mouse_check_button(mb_left)) x += 0.1 *(window_mouse_get_x() - (1600 - xBounds));
+	if(item != noone || (mouse_check_button(mb_left) && !overInteractable)) x += 0.1 *(window_mouse_get_x() - (1600 - xBounds));
 }
 else 
 {

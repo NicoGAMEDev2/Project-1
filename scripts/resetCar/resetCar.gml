@@ -1,5 +1,5 @@
 obj_GameController.inPlay = false;
-obj_vehicleController.sprite_index = spr_Stop;
+obj_vehicleController.sprite_index = spr_Go;
 
 X = Obj_Vehicle.spawnX;
 Y = Obj_Vehicle.spawnY
