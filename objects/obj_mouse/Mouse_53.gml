@@ -8,8 +8,8 @@ if(obj_GameController.inPlay == false)
 	if(item == noone && !overInteractable && !overItem)
 	{
 		camera_set_view_target(view_camera[0], id);
-		x = mouse_x;
-		y = mouse_y;
+		x = camera_get_view_x(view_camera[0]) + 800;
+		y = camera_get_view_y(view_camera[0]) + 450;
 	}
 	else if(!overInteractable && !overCameraManBoundary)
 	{

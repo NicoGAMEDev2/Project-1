@@ -43,6 +43,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "13927add-3c37-4998-8554-a612c37965dd"
+        },
+        {
+            "id": "f86cb7a1-20d4-4595-900d-d8de6d619be5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 50,
+            "eventtype": 6,
+            "m_owner": "13927add-3c37-4998-8554-a612c37965dd"
+        },
+        {
+            "id": "273df635-ef3f-466d-8c81-4c15e538179f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 56,
+            "eventtype": 6,
+            "m_owner": "13927add-3c37-4998-8554-a612c37965dd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -61,7 +81,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "5faa1c7e-016b-4939-b182-86dfb291dcc7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "dragSpeed",
+            "varType": 1
+        },
+        {
+            "id": "7d007215-cb5b-485e-a380-22cb2bf97915",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "300",
+            "varName": "xBounds",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

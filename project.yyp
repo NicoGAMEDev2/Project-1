@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "23894da0-7b6b-4ca4-b843-49fa11505501",
+            "Value": {
+                "id": "714c2cc8-5190-4340-9a69-71dab337e786",
+                "resourcePath": "sprites\\mouse_arrow\\mouse_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "286079de-ef03-4a2f-a1cc-2ca86f687463",
             "Value": {
                 "id": "5417d42c-c608-4df1-bfdf-21f97b8da531",
