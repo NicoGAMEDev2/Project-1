@@ -1,27 +1,10 @@
+obj_GameController.inPlay = false;
+obj_vehicleController.sprite_index = spr_Stop;
 
-		
+X = Obj_Vehicle.spawnX;
+Y = Obj_Vehicle.spawnY
+instance_destroy(obj_car);
+instance_destroy(obj_tire);
+instance_create_layer(X, Y, "mouseObj", obj_car);
 
-			obj_GameController.inPlay = false;
-			obj_vehicleController.sprite_index = spr_Stop;
-			camera_set_view_target(view_camera[0], Obj_Vehicle);
-		
-		with(Obj_Vehicle)
-		{
-			phy_position_x = spawnX;
-			phy_position_y = spawnY;
-			phy_speed_x = 0;
-			phy_speed_y = 0;
-			phy_angular_velocity = 0;
-			phy_rotation = 0;
-		}
-		with(obj_tire)
-		{
-			phy_position_x = spawnX;
-			phy_position_y = spawnY;
-			phy_speed_x = 0;
-			phy_speed_y = 0;
-			phy_angular_velocity = 0;
-			phy_rotation = 0;
-		}
-		
-		stopCar();
+camera_set_view_target(view_camera[0], Obj_Vehicle);
