@@ -1,15 +1,9 @@
-if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
-{
-	if(obj_mouse.item == noone) 
-	{
-		obj_vehicleController.sprite_index = spr_Stop;
+
 		
-		with(obj_vehicleController)
-		{
+
 			obj_GameController.inPlay = false;
-			sprite_index = spr_Stop;
+			obj_vehicleController.sprite_index = spr_Stop;
 			camera_set_view_target(view_camera[0], Obj_Vehicle);
-		}
 		
 		with(Obj_Vehicle)
 		{
@@ -29,6 +23,5 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 			phy_angular_velocity = 0;
 			phy_rotation = 0;
 		}
-		//room_restart();
-	}
-}
+		
+		stopCar();

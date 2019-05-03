@@ -5,16 +5,6 @@
     "name": "obj_tire",
     "eventList": [
         {
-            "id": "ad614ca9-4d27-4841-bf11-80d46933a875",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "bfc037b5-b213-4819-a0e2-556643d9a502",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "cf417e21-e812-498e-b6f0-f74376b97b8d"
-        },
-        {
             "id": "4292e015-d6d5-42fe-a74a-93fd932e05af",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "cf417e21-e812-498e-b6f0-f74376b97b8d"
+        },
+        {
+            "id": "896a7556-869b-4898-8b2b-a7f14fb67e46",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "cf417e21-e812-498e-b6f0-f74376b97b8d"
         }
     ],

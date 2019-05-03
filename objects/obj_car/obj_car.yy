@@ -13,14 +13,24 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "2b171517-14e4-423e-9214-ca0979c8c680"
+        },
+        {
+            "id": "66bfde4d-3c60-4b44-9c7f-b0dfc66d0e08",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2b171517-14e4-423e-9214-ca0979c8c680"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "e7d6c4ef-8055-4be8-8751-055d6e45b22c",
     "persistent": false,
-    "physicsAngularDamping": 0.25,
-    "physicsDensity": 0.5,
+    "physicsAngularDamping": 1,
+    "physicsDensity": 3,
     "physicsFriction": 0.2,
     "physicsGroup": 0,
     "physicsKinematic": false,
@@ -71,7 +81,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "500",
+            "value": "5000",
             "varName": "friction",
             "varType": 0
         },
@@ -85,7 +95,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "150",
+            "value": "500",
             "varName": "torque",
             "varType": 0
         },
@@ -99,7 +109,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "35",
+            "value": "100",
             "varName": "speed",
             "varType": 0
         },

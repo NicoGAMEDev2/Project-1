@@ -17,14 +17,6 @@ if(upsideDown && place_meeting(x,y, obj_wall))
 }	
 else include = true;
 
-if(!place_meeting(x, y, obj_SpeedRamp))
-{
 
-	with(obj_tire)
-	{
-		physics_joint_set_value(motor, phy_joint_motor_speed, obj_car.speed);
-	}
-
-}
 //show_debug_message("chances: " + string(chances))
 if(chances == 0) room_restart();

@@ -6,7 +6,8 @@
     "children": [
         "6009e44a-cfa4-4fe0-bbd6-2695241de020",
         "c7cca872-0c72-417d-ab52-742498beb559",
-        "cec5e6e8-ba8a-4cb5-9027-8e579414ba5a"
+        "cec5e6e8-ba8a-4cb5-9027-8e579414ba5a",
+        "e28fcb76-b3f8-4175-8147-054aa8a5799f"
     ],
     "filterType": "GMSprite",
     "folderName": "Sprite_Collision",

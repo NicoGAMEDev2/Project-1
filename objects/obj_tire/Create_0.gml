@@ -1,1 +1,2 @@
 var motor;
+onGround = false;
