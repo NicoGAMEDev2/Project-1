@@ -23,7 +23,7 @@
             "mvc": "1.0",
             "objectId": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40",
             "propertyId": "c540d085-661b-451c-9212-52d75f32bcce",
-            "value": "Restarts the level. Costs Money"
+            "value": "Restarts the level."
         }
     ],
     "parentObjectId": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40",

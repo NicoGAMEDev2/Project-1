@@ -65,6 +65,20 @@
             "value": "Obj_ItemSelect",
             "varName": "itemSelect",
             "varType": 5
+        },
+        {
+            "id": "64e08076-9dea-4655-82ed-a31548d57944",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "itemSelect.cost",
+            "varName": "cost",
+            "varType": 0
         }
     ],
     "solid": false,

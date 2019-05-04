@@ -15,4 +15,7 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id) && descripti
 	draw_set_color(c_blue);
 	draw_set_valign(fa_bottom);
 	draw_text_ext(xDraw, y - sprite_yoffset - 20, description, font_get_size(font0), 200);
+	
+	draw_set_color(c_aqua);
+	draw_text(window_mouse_get_x(), window_mouse_get_y(), "Cost $" + string(cost));
 }

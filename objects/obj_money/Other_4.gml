@@ -1,0 +1,1 @@
+money = budget + Obj_Vehicle.cost;

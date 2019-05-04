@@ -39,6 +39,14 @@
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "54f5bf9d-8824-42ca-a338-19bbcf244397",
             "value": "Makes vehicle move faster when it is inside the boost. GoTtA gO FaSt!!"
+        },
+        {
+            "id": "0f5039f6-9a6e-4b9f-9097-eaf385c6c8fd",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "36a9d97e-0dfd-4ab0-801a-9215ffdf4998",
+            "value": "10"
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",

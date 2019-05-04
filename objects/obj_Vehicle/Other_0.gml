@@ -1,1 +1,1 @@
-room_restart()
+resetCar()

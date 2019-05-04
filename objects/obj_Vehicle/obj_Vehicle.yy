@@ -207,6 +207,20 @@
             "value": "5000",
             "varName": "friction",
             "varType": 0
+        },
+        {
+            "id": "dd514d6f-ebee-4c66-a68d-ab93a86f8941",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "cost",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -1,53 +1,44 @@
 {
-    "id": "66c844e9-ffe0-4204-9f1b-2a2243085568",
+    "id": "52fc5382-1a98-4487-b571-3d4e6e72b855",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_vehicleController",
+    "name": "obj_moneyChange",
     "eventList": [
         {
-            "id": "c017d9ba-60ac-4589-8f71-efe87a8023f7",
+            "id": "3dfddf4b-744a-42bf-a5fe-78443ab2f168",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "66c844e9-ffe0-4204-9f1b-2a2243085568"
+            "m_owner": "52fc5382-1a98-4487-b571-3d4e6e72b855"
         },
         {
-            "id": "ecc26fab-83dc-4be5-8010-9cf1fb588608",
+            "id": "c33e2277-5972-43bf-ac82-4b91d0027e87",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 53,
-            "eventtype": 6,
-            "m_owner": "66c844e9-ffe0-4204-9f1b-2a2243085568"
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "52fc5382-1a98-4487-b571-3d4e6e72b855"
         },
         {
-            "id": "e5b88f99-b779-4e51-bf51-27feb326757c",
+            "id": "d25e3977-94b5-4744-8deb-032b55f04e9a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "66c844e9-ffe0-4204-9f1b-2a2243085568"
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "52fc5382-1a98-4487-b571-3d4e6e72b855"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "8b442a88-6999-4bf9-a48c-8c02f22b1fc2",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40",
-            "propertyId": "c540d085-661b-451c-9212-52d75f32bcce",
-            "value": "goDIs"
-        }
-    ],
-    "parentObjectId": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40",
-    "persistent": true,
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -62,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "781684cc-3e1e-4712-a541-5b35630971bf",
+            "id": "61625fd7-f9bc-47ca-923d-a0700e32555a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -71,12 +62,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "resets the car. That Costs $",
-            "varName": "resetDis",
-            "varType": 2
+            "value": "1000",
+            "varName": "change",
+            "varType": 0
         },
         {
-            "id": "1419423b-19d0-4bba-8be1-8054b40e08c0",
+            "id": "a4f97956-6be3-4091-8bcc-d201d59ca6eb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -85,12 +76,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "Starts the car. Are You Ready? reseting Costs $",
-            "varName": "goDis",
-            "varType": 2
+            "value": "0",
+            "varName": "color",
+            "varType": 7
         }
     ],
     "solid": false,
-    "spriteId": "1449d293-4d34-42c0-aa4b-3bb1f0aa078e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

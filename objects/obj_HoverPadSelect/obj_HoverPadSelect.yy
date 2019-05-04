@@ -39,6 +39,14 @@
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "54f5bf9d-8824-42ca-a338-19bbcf244397",
             "value": "Causes vehicle to hover over like  a UFO."
+        },
+        {
+            "id": "3ffc01c8-110a-442d-8cd7-301b3dbb32ec",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "36a9d97e-0dfd-4ab0-801a-9215ffdf4998",
+            "value": "100"
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",

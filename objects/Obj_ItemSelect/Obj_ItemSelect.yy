@@ -117,6 +117,20 @@
             "value": "",
             "varName": "description",
             "varType": 2
+        },
+        {
+            "id": "36a9d97e-0dfd-4ab0-801a-9215ffdf4998",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cost",
+            "varType": 0
         }
     ],
     "solid": false,
