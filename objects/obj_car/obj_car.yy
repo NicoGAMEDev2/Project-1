@@ -72,48 +72,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "a88f877a-d923-4c6d-8fa4-3daf42ce50db",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5000",
-            "varName": "friction",
-            "varType": 0
-        },
-        {
-            "id": "9d83455b-7ce6-423b-bb8d-392eefc05fb9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "500",
-            "varName": "torque",
-            "varType": 0
-        },
-        {
-            "id": "2b0e2ba1-3c46-493e-b21b-f185e005f6a7",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "100",
-            "varName": "speed",
-            "varType": 0
-        },
-        {
             "id": "27f3551b-2eb1-40e6-8719-63ddcfad6cab",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

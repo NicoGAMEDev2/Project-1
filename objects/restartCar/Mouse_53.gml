@@ -29,6 +29,5 @@ if(position_meeting(window_mouse_get_x(), window_mouse_get_y(), id))
 			phy_angular_velocity = 0;
 			phy_rotation = 0;
 		}
-		//room_restart();
 	}
 }

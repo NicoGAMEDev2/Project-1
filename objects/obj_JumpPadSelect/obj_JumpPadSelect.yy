@@ -31,6 +31,14 @@
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "cb6e7646-8955-4979-ae34-f1db42b34153",
             "value": "obj_JumpPad"
+        },
+        {
+            "id": "e6d4c1b0-2d4e-43c0-9c4f-acdbeddfd46b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "54f5bf9d-8824-42ca-a338-19bbcf244397",
+            "value": "Cause vehicle to jump upwards"
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",

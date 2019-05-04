@@ -1,21 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description decides when to stop and start motor in play
 
 if(obj_GameController.inPlay)
 {
-	if(rearWheel.onGround || frontWheel.onGround) 
-	{
-		//show_debug_message("on the ground");
-		startCar()
-	}
-	else
-	{
-		//show_debug_message("in the air");
-		stopCar();
-	}
-}
+	if(rearWheel.onGround || frontWheel.onGround) startCar();
+	else stopCar();
 	
-
+}
 // Inherit the parent event
 event_inherited();
 

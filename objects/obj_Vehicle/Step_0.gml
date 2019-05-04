@@ -7,7 +7,7 @@ if(abs(carAngle - 180) < 30)
 }
 else upsideDown = false;
 
-if(upsideDown && place_meeting(x,y, obj_wall))
+if(upsideDown && place_meeting(x,y, Obj_StaticCollisions))
 {
 	if(include) 
 	{
@@ -18,5 +18,11 @@ if(upsideDown && place_meeting(x,y, obj_wall))
 else include = true;
 
 
-//show_debug_message("chances: " + string(chances))
-if(chances == 0) room_restart();
+if(obj_GameController.inPlay && !place_meeting(phy_position_x, phy_position_y, obj_SpeedRamp))
+{
+	with(obj_tire)
+	{
+		physics_joint_set_value(motor, phy_joint_motor_speed, Obj_Vehicle.speed);
+	}
+}
+if(chances == 0) resetCar();

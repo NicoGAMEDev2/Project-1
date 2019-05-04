@@ -69,7 +69,22 @@
         }
     ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "e66cf9b2-415e-4811-b0d4-a9105e60268d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "boost",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "0f016587-1229-4682-bbb1-7756d7d349cf",
     "visible": true

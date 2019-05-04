@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_HoverPadSelect",
     "eventList": [
-        {
-            "id": "3e84ca95-e211-415a-ab0d-3429b40bcfc6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "02182e6d-e2bd-49e3-8796-24b93fbc8cf1"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -40,6 +31,14 @@
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "cb6e7646-8955-4979-ae34-f1db42b34153",
             "value": "obj_HoverPad"
+        },
+        {
+            "id": "e72dc86b-ebf1-4a69-aeef-669800d6dfc3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "54f5bf9d-8824-42ca-a338-19bbcf244397",
+            "value": "Causes vehicle to hover over like  a UFO."
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",

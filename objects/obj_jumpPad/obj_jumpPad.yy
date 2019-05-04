@@ -93,6 +93,20 @@
             "value": "100",
             "varName": "jumpForce",
             "varType": 0
+        },
+        {
+            "id": "912d7cfb-f666-44c2-bae6-13eb21a89386",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "50",
+            "varName": "hitBoxHeight",
+            "varType": 0
         }
     ],
     "solid": false,

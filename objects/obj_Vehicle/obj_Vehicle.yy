@@ -55,11 +55,11 @@
             "m_owner": "e7d6c4ef-8055-4be8-8751-055d6e45b22c"
         },
         {
-            "id": "85c95240-f940-4561-84ca-f8483cc66d9d",
+            "id": "f3692170-2e8f-4afb-9d35-8370ddaca6c8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "bfc037b5-b213-4819-a0e2-556643d9a502",
+            "collisionObjectId": "768f2f57-bd02-4608-97ea-88cb5ee80834",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "e7d6c4ef-8055-4be8-8751-055d6e45b22c"
@@ -164,6 +164,48 @@
             "resourceFilter": 1023,
             "value": "y",
             "varName": "spawnY",
+            "varType": 0
+        },
+        {
+            "id": "3689351e-63f0-41c2-9e48-97b5e83ba6ac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "50",
+            "varName": "speed",
+            "varType": 0
+        },
+        {
+            "id": "fe37551f-a3a9-4e68-b52e-0d5a1fc45612",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "torque",
+            "varType": 0
+        },
+        {
+            "id": "a6248d53-af90-4aba-9eba-6029ab125ff4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5000",
+            "varName": "friction",
             "varType": 0
         }
     ],

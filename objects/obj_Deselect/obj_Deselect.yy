@@ -24,6 +24,22 @@
             "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
             "propertyId": "fc6b688a-2be2-4179-912d-01b8bd9f462e",
             "value": "Deselect"
+        },
+        {
+            "id": "c5aee0e3-64e7-485e-8a71-96e063e86323",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "57f814d9-0666-4ffe-85b6-d9b3b3a2b1b9",
+            "value": "-1"
+        },
+        {
+            "id": "d38c6664-0ccf-4823-bddb-6daf4ff730fe",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",
+            "propertyId": "54f5bf9d-8824-42ca-a338-19bbcf244397",
+            "value": "Allows you to *SNAP* erase half the universe. JK only erase placed items."
         }
     ],
     "parentObjectId": "304d3cfc-a203-4628-9228-cbb35c8bda26",

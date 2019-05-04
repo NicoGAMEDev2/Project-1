@@ -8,7 +8,6 @@ if(vehicle != noone)
 	with(vehicle) 
 	{ 
 		if(phy_position_y > other.phy_position_y -  other.hoverHeight) phy_position_y = other.phy_position_y -  other.hoverHeight;
-		else phy_position_y = phy_position_yprevious;
-		
+		else phy_position_y = phy_position_yprevious;	
 	}
 }
