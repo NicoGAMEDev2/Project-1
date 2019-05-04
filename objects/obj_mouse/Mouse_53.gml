@@ -2,7 +2,7 @@ if(obj_GameController.inPlay == false)
 {
 	overInteractable = position_meeting(window_mouse_get_x(), window_mouse_get_y(), Obj_interactable);
 	overItem = position_meeting(mouse_x, mouse_y, Obj_Item);
-	overCameraManBoundary = point_in_circle(mouse_x, mouse_y, obj_CameraMan.x, obj_CameraMan.y, obj_CameraMan.radius);
+	overCameraManBoundary = false;
 	
 	
 	if(item == noone && !overInteractable && !overItem)

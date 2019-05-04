@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "8d9fe9a8-f7f6-4d40-b916-9391cde6a8aa",
+            "Value": {
+                "id": "f9060a7a-0c16-4bf8-9ef7-33836d847587",
+                "resourcePath": "objects\\obj_collectMoney\\obj_collectMoney.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8dcbb9dc-4161-41d1-a1be-0aff3e26c69c",
             "Value": {
                 "id": "5ddda33a-54d9-49a0-81f4-b0435ac81545",

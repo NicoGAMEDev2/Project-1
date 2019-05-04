@@ -1,4 +1,3 @@
-
 draw_self();
 draw_set_color(c_yellow);
 draw_set_font(font0);
