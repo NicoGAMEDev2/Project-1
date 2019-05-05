@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "3ec9af0a-ee2e-4e4c-ace5-6f72f3e08eaf",
+            "Value": {
+                "id": "4534183f-1a35-4896-98ab-1d1f3a67d93f",
+                "resourcePath": "sprites\\sprite23\\sprite23.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "448a8b5a-e7f7-4b10-9a91-8b592fdd6c40",
             "Value": {
                 "id": "df04aee1-a8e6-4c24-9d3a-403b4e6b0810",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "53819cd1-f456-4510-bc3a-c4899c1beb02",
+            "Value": {
+                "id": "57ce7202-b753-4a32-ad38-493df73f967b",
+                "resourcePath": "rooms\\Title_Screen\\Title_Screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "551635a1-657c-4670-a8a4-4c291d6368a8",
             "Value": {
                 "id": "2ead762d-3db8-4b7b-9d35-6c0e35dd375e",
@@ -258,7 +274,7 @@
             "Key": "639fffd2-bbf1-4fe5-8ac1-06542eafa979",
             "Value": {
                 "id": "4169cdbb-5b5a-4883-84b2-15358d0e6ff6",
-                "resourcePath": "objects\\object30\\object30.yy",
+                "resourcePath": "objects\\Obj_CraneStraight\\Obj_CraneStraight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +308,14 @@
                 "id": "30ef40e4-b1e2-48cd-926d-4c199638e342",
                 "resourcePath": "sprites\\spr_TempMenu\\spr_TempMenu.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e549d8e-1b27-4d8b-a2fc-f96b20e40b12",
+            "Value": {
+                "id": "6b018de0-20b6-494e-b425-c3ed821295e7",
+                "resourcePath": "objects\\Obj_Title\\Obj_Title.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -562,7 +586,7 @@
             "Key": "cb1431a2-397a-4df9-bc24-6125a6784f84",
             "Value": {
                 "id": "dc919cf6-b864-482e-93f9-bd6246c0cc25",
-                "resourcePath": "objects\\object29\\object29.yy",
+                "resourcePath": "objects\\Obj_Crane\\Obj_Crane.yy",
                 "resourceType": "GMObject"
             }
         },
