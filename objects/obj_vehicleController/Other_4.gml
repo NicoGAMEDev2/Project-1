@@ -1,3 +1,6 @@
 /// @description Insert description here
-resetCar()
-description1 = goDis + string(Obj_Vehicle.cost);;
+if(global.rm != 0)
+{
+	resetCar()
+	description1 = goDis + string(Obj_Vehicle.cost);
+}

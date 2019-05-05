@@ -9,3 +9,12 @@ instance_create_layer(X, Y, "mouseObj", obj_GameController.vehicle);
 
 obj_money.money -= Obj_Vehicle.cost;
 camera_set_view_target(view_camera[0], Obj_Vehicle);
+
+if(global.rm != 0)
+{
+
+	with(obj_vehicleController)
+	{
+		description1 = goDis + string(Obj_Vehicle.cost);
+	}
+}
