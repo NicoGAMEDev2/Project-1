@@ -1,0 +1,1 @@
+if(global.rm != 0) money = budget + Obj_Vehicle.cost;

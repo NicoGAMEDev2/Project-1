@@ -43,4 +43,4 @@ timer_max = 6;
 timer = timer_max;
 
 angleOffSet = 10;
-angleRange = 45;
+angleRange = 60;

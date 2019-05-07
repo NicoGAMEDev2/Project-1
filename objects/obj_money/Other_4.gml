@@ -1,1 +1,2 @@
-if(global.rm != 0) money = budget + Obj_Vehicle.cost;
+if(room != 0) money = budget + Obj_Vehicle.cost;
+show_debug_message(string(money));

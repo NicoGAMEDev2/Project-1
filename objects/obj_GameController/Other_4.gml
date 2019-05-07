@@ -6,4 +6,9 @@ if(global.rm != 0)
 	if(instance_exists(obj_car)) vehicle = obj_car;
 	if(instance_exists(obj_boat)) vehicle = obj_boat;
 }
+else 
+{
+	if(game_score > game_highscore) game_highscore = game_score;
+	game_score = 0;
+}
 
