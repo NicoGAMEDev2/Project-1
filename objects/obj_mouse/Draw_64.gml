@@ -2,7 +2,7 @@ if(global.rm != 0)
 {
 	if(sprite_item != noone) draw_sprite(sprite_item, 0, window_mouse_get_x(), window_mouse_get_y());
 	draw_set_colour(c_yellow);
-	draw_rectangle(xBounds, 0, 1600 - xBounds, 900, true)
+	//draw_rectangle(xBounds, 0, 1600 - xBounds, 900, true)
 
 	wMouseX = window_mouse_get_x();
 	wMouseY = window_mouse_get_y();
