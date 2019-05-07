@@ -6,7 +6,7 @@ if(!obj_GameController.inPlay && global.rm != 0)
 	
 	//this will comine both and place it on the on the text box
 	
-	if((position_meeting(window_mouse_get_x(), window_mouse_get_y(), id) || obj_mouse.itemSelect == id) && description != "")
+	if( (position_meeting(window_mouse_get_x(), window_mouse_get_y(), id) || (obj_mouse.itemSelect == id && !position_meeting(window_mouse_get_x(), window_mouse_get_y(), Obj_interactable)) ) && description != "")
 	{
 		xOffset = 30;
 		spaceing = 10;		

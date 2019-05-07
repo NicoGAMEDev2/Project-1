@@ -9,11 +9,14 @@ if(vehicle != noone)
 	{ //within this block of code, we are now accessing and applying code to the OTHER (the bus)
 		if(abs(other.phy_position_x - phy_position_x) < 10) //using OTHER in this block of code refers back to the orignal object this code currently resides in.
 		{
+			audio_play_sound(s_Jump, 1, false);
 			physics_apply_impulse(phy_com_x, phy_com_x, 0, -obj_JumpPad.jumpForce);
+			
 			with(obj_tire)
 			{
 				physics_apply_impulse(phy_com_x, phy_com_y, 0, -obj_JumpPad.jumpForce);
 			}
+			
 		}
 	}
 	

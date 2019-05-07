@@ -12,6 +12,7 @@ if(OnEnter && OnExit) PassedOver = true;
 
 if(PassedOver = true)
 {
+	audio_play_sound(s_Win, 7, false);
 	switch(global.rm)
 	{
 		case 1: room_goto(2); break;

@@ -37,3 +37,10 @@ physics_fixture_delete(fix);
 frontWheel = physics_joint_revolute_create(id, wheel, wheel.x, wheel.y, 0, 0, 0, torque, 0, true, false);
 wheel.motor = frontWheel;
 frontWheel = wheel;
+
+
+timer_max = 6;
+timer = timer_max;
+
+angleOffSet = 10;
+angleRange = 45;
